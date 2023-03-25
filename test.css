@@ -55,11 +55,10 @@ footer {
    font-size: 13px;
 }
 
-.h {
+.h1>h3 {
    letter-spacing: 0.5px;
 }
 
 body {
-   font-size: 14px;
    line-height: 1.5;
 }
