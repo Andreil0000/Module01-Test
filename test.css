@@ -56,9 +56,16 @@ footer {
 }
 
 .h1>h3 {
+   display: block;
+   font-size: 2em;
+   margin-top: 0.67em;
+   margin-bottom: 0.67em;
+   font-weight: bold;
    letter-spacing: 0.5px;
 }
 
 body {
    line-height: 1.5;
+   font-family: 'Nunito Sans', sans-serif;
+   font-family: 'Roboto', sans-serif;
 }
