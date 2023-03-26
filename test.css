@@ -5,7 +5,9 @@
    font-size: 20px;
    font-family: 'Nunito Sans', sans-serif;
    font-family: 'Roboto', sans-serif;
-
+   padding-top: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
 }
 
 .logo {
@@ -13,6 +15,11 @@
    color: lightgreen;
    background: rebeccapurple;
    font-weight: 700;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 15px;
+   padding-right: 15px;
+
 }
 
 a {
@@ -30,7 +37,8 @@ ul {
 }
 
 ul>li {
-   margin-right: 10px;
+   margin-right: 0px;
+   margin-right: 30px;
 }
 
 .box {
@@ -41,8 +49,15 @@ ul>li {
 }
 
 .aside {
-   border-right: 1px solid #000;
+   background: lavender;
    padding-right: 20px;
+   padding: 10px 20px;
+}
+
+section {
+   background: lavender;
+   padding: 5px 20px;
+   margin-bottom: 20px;
 }
 
 .post {
@@ -53,19 +68,42 @@ footer {
    font-family: 'Nunito Sans', sans-serif;
    font-family: 'Roboto', sans-serif;
    font-size: 13px;
-}
-
-.h1>h3 {
-   display: block;
-   font-size: 2em;
-   margin-top: 0.67em;
-   margin-bottom: 0.67em;
-   font-weight: bold;
-   letter-spacing: 0.5px;
+   padding-left: 20px;
+   padding-right: 20px;
 }
 
 body {
    line-height: 1.5;
    font-family: 'Nunito Sans', sans-serif;
    font-family: 'Roboto', sans-serif;
+}
+
+header {
+   align-items: center;
+}
+
+h1 {
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+}
+
+h2 {
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+}
+
+h3 {
+   text-transform: uppercase;
+   font-weight: bold;
+   letter-spacing: 0.5px;
+}
+
+.link {
+   background: rebeccapurple;
+   color: white;
+   padding-bottom: 8 px;
+   padding-top: 8 px;
+   padding-right: 15 px;
+   padding-left: 15 px;
+   margin-left: 10px;
 }
