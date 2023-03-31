@@ -58,10 +58,10 @@ ul>li {
 }
 
 section {
-  
    background: lavender;
    padding: 5px 20px;
    margin-bottom: 20px;
+ 
 }
 
 .post {
@@ -113,12 +113,10 @@ h3 {
    padding-right: 15px;
    padding-left: 15px;
    margin-left: 10px;
- 
+
 }
-section{
+.results{
    display: grid;
-   display: inline block;
    grid-template-columns: repeat(3, 1fr);
    gap:10px;
-  
 }
