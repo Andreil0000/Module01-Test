@@ -61,7 +61,7 @@ section {
    background: lavender;
    padding: 5px 20px;
    margin-bottom: 20px;
- 
+
 }
 
 .post {
@@ -115,8 +115,9 @@ h3 {
    margin-left: 10px;
 
 }
+
 .results{
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   gap:10px;
+   display:grid;
+   grid-template-columns:repeat(3, 1fr);
+   gap: 10px;
 }
